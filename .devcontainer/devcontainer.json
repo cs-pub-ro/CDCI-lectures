@@ -1,0 +1,12 @@
+{
+  // CDCI lectures - dev/test container
+  "name": "CDCI Lectures (Node + Slidev)",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+  "postCreateCommand": "npm install && npm approve-scripts --allow-scripts-pending",
+  "forwardPorts": [3030],
+  "portsAttributes": {
+    "3030": { "label": "Slidev dev server", "onAutoForward": "notify" }
+  }
+}

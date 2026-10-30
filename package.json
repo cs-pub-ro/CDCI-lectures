@@ -1,0 +1,21 @@
+{
+  "name": "cdci-lectures",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open lectures/index.md",
+    "build": "slidev build",
+    "export": "slidev export",
+    "format": "slidev format"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "latest",
+    "slidev-theme-cdci": "file:./cdci-theme",
+    "slidev-theme-touying": "^0.1.10",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.64.1"
+  }
+}
