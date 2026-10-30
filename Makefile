@@ -50,3 +50,4 @@ build: ## Builds & exports single lecture into $(OUT_DIR)
 
 clean: ## Remove build artifacts
 	rm -rf $(OUT_DIR) node_modules/.vite
+
