@@ -4,14 +4,14 @@ import { useTouyingConfig } from '../composables/useTouyingConfig'
 import DewdropSection from '../themes/dewdrop/layouts/section.vue'
 import UniversitySection from '../themes/university/layouts/section.vue'
 import SimpleSection from '../themes/simple/layouts/section.vue'
-import IscSection from '../themes/isc/layouts/section.vue'
+import CdciSection from '../themes/cdci/layouts/section.vue'
 
 defineOptions({ inheritAttrs: false })
 const config = useTouyingConfig()
 const component = computed(() =>
   config.value.preset === 'university' ? UniversitySection : 
   config.value.preset === 'simple' ? SimpleSection : 
-  config.value.preset === 'isc' ? IscSection : DewdropSection,
+  config.value.preset === 'cdci' ? CdciSection : DewdropSection,
 )
 </script>
 

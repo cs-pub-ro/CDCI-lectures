@@ -22,3 +22,4 @@ echo ""
 
 # Run the dev server interactively inside the container
 docker exec -it cdci-slidev-build-docker npx slidev "lectures/$LECTURE/slides.md" --remote --port 3030
+

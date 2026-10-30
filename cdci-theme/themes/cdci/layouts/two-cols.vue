@@ -1,5 +1,5 @@
 <!--
-  Modified two-columns layout for ISC theme.
+  Modified two-columns layout for CDCI theme.
 
   Usage:
 

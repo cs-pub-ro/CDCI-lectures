@@ -113,7 +113,7 @@ logo: /logo.svg
 Named Mermaid themes can be selected per diagram with the usual options object:
 
 ````md
-```mermaid {theme: 'isc-cartoon', scale: 0.65}
+```mermaid {theme: 'cdci-cartoon', scale: 0.65}
 flowchart LR
   A --> B
 ```
@@ -121,7 +121,7 @@ flowchart LR
 
 | Theme | Look |
 |-------|------|
-| `isc-cartoon` | White fill, thick black rounded borders, pill-shaped edge labels |
+| `cdci-cartoon` | White fill, thick black rounded borders, pill-shaped edge labels |
 
 Mermaid only accepts its own theme names, so each preset in
 [`setup/mermaid-themes.ts`](./setup/mermaid-themes.ts) is a plain Mermaid config.

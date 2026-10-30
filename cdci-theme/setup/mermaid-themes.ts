@@ -8,14 +8,14 @@
  *
  * Usage:
  *
- *   ```mermaid {theme: 'isc-cartoon', scale: 0.65}
+ *   ```mermaid {theme: 'cdci-cartoon', scale: 0.65}
  *   flowchart LR
  *     A --> B
  *   ```
  */
 export const mermaidThemes: Record<string, Record<string, unknown>> = {
   // White fill, thick black rounded borders, pill edge labels.
-  'isc-cartoon': {
+  'cdci-cartoon': {
     theme: 'base',
     themeVariables: {
       background: '#ffffff',

@@ -1,6 +1,6 @@
 <script setup>
 import { useNav } from '@slidev/client'
-import iscLogo from './public/cdci-logo.png'
+import cdciLogo from './public/cdci-logo.png'
 import ccLogo from './public/CC-by-nc-sa.png'
 import downloadIcon from './public/download.svg'
 
@@ -17,7 +17,7 @@ const pdfUrl = import.meta.env.BASE_URL + 'slides.pdf'
     </a>
 
     <!-- Centered Logos -->
-    <a href="https://ocw.cs.pub.ro/courses/isc"><img :src="iscLogo" alt="ISC Logo" 
+    <a href="https://ocw.cs.pub.ro/courses/cdci"><img :src="cdciLogo" alt="CDCI Logo" 
       style="height: 44px; object-fit: contain; opacity: 0.9; pointer-events: auto;" /></a>
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img :src="ccLogo" alt="CC BY-NC-SA License" 
       style="height: 32px; object-fit: contain; opacity: 0.9; pointer-events: auto;" /></a>
